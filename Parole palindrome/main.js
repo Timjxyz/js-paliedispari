@@ -10,7 +10,7 @@ if(parola == parolaInversa){
 }
 //Funzione per verificare se la parola è palindroma
 function invertiParola(frase){
-  let parolaInversa = frase.split().reverse().join('');  
+  let parolaInversa = frase.split('').reverse().join('');  
   console.log(parolaInversa)
   return parolaInversa;
 }
